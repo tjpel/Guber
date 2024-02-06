@@ -1,0 +1,67 @@
+Meeting Minutes
+6FEB2024
+Participants: Thomas, Allen
+Minutes Taker: Thomas
+
+
+9:15 - Reviewed ProjectPart2 Outline
+9:21 - Decide software system - Uber clone (Guber)
+9:22 - Develop problem statement
+	Title: Guber
+	Problem:
+As the desire for on-demand personalized transportation rises, there is a market need for a centralized 
+application to house multiple transportation methods and companies offering a multitude of options to best 
+suit the customer.
+
+Simultaneously, we are becoming more and more disconnected from the humor of others around us. As we divide 
+ourselves more into online communities, the common basis that social communication requires is disappearing.
+As a society, we require common ground to continue communicating in an effective manner.
+
+There are currently other ride-share providers that provide a solution to the transportation issue, but do
+nothing to solve the second issue. We plan to solve this by providing operators who are trained in giving
+humorous commentary on current events.
+
+9:37 - Objectives
+
+The objectives of Guber are as follows:
+
+- provide an infrastructure and application for customers to request transportation in many forms on-demand
+- provide an infrastructure for operators to accept ride requests
+    - operators will be able to see and receive compensation amount per ride
+- provide an infrastructure for admins to review potential operators and review customer complaints
+    - admins will be able to ban users and operators for behavior not in line with company values
+
+
+9:42 - Functional Requirements
+
+Guber will have 3 types of users:
+- Riders should be able to request a ride using an application, select comedy preferences, 
+select pick-up and drop-off details, including location, time, and mode of transportation, select 
+a payment method, pay per ride, and leave tips to operators, and leave reviews of operators.
+
+- Operators should be able to accept ride requests, ride details, and amount of compensation for the 
+requests that are within a selected location, when the operator fits the requests of the rider. They should 
+also be able to leave reviews of riders.
+
+- Admins should be able to see all ongoing rides, review and accept potential operators applications, review
+customer complaints and operator and rider reviews. They will be allowed to deactivate accounts of riders 
+and operators who have behaved in a way that does not align with company values.
+
+9:57 - Nonfunctional Requirements
+
+- Quick arrival and delivery. The time from when an operator accepts a ride to when the operator arrives at
+the requested pick-up location should be +-20% of a reasonable mapping software estimate.
+- Reliancy. A ride request is shown to the 5 closest operators to maximize the probability the request is 
+responded to quickly. A ride request should be accepted by an operator within 5 minutes of the user 
+requesting the ride 85% of the time, and within 10 minutes 98% of the time.
+- Security. Provide security for all user's personal data. This data should never be shown to users other
+than its owners.
+- Scalability. Guber will begin with its focus on one city and surrounding area (100 mi radius of city 
+center), and will expand into further cities according to market research.
+
+10:09 - Target Environment
+
+- Riders and operators should be able to access the application using mobile applications and a web portal,
+and admins will be able to access the system using a web portal.
+
+10:14 - Began work on slideshow for 02082024
